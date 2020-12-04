@@ -9,9 +9,12 @@ int main(){
 		ll k;cin>>k;a.push_back(k);
 	}
 	ll k;cin>>k;
+	ll ans;
 	for(ll i=0;i<n;i++){
 		if(a[i]==k){
-			cout<<i<<endl;
+			ans=i;
 			break;
 		}
 	}
+	cout<<ans<<endl;
+}

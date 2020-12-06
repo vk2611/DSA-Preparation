@@ -21,7 +21,8 @@ class Solution {
 			}
 			if (ans == false) {
 				System.out.println("The streak lives still in our heart!");
-			} else {
+			}
+			else {
 				System.out.println("The streak is broken!");
 			}
 		}
